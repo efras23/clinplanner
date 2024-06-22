@@ -22,9 +22,13 @@
 
       <div class="frame-parent">
         <div class="textbox-parent">
-          <input class="textbox" placeholder="Email" type="email" />
+          <form method="post" action="/autenticar">
+            <label for="email" class="form-label">Email</label>
+            <input class="textbox" type="email" id="email"/>
 
-          <input class="textbox" placeholder="Senha" type="password" />
+            <label for="senha" class="form-label">Senha</label>
+            <input class="textbox" type="password" id="senha"/>
+          </form>
         </div>
         <div class="textbox-parent">
           <a class="button" href="./perfil.html">
