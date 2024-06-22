@@ -1,0 +1,156 @@
+.union-icon2 {
+  width: 201px;
+  position: relative;
+  height: 95px;
+  object-fit: cover;
+}
+.anamnese2,
+.especialidades2 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+}
+.anamnese2 {
+  white-space: pre-wrap;
+}
+.especialidades-container,
+.union-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.especialidades-container {
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.union-container {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.buscar,
+.textbox2 {
+  font-weight: 500;
+  font-family: var(--font-inter);
+}
+.textbox2 {
+  border: 2px solid var(--color-darkslategray-100);
+  outline: 0;
+  font-size: var(--font-size-base);
+  background-color: var(--color-gainsboro-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  color: var(--color-black);
+  min-width: 350px;
+}
+.buscar {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  text-align: left;
+}
+.button2,
+.frame-parent13,
+.textbox-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-darkslategray-100);
+  overflow: hidden;
+  flex-direction: column;
+}
+.frame-parent13,
+.textbox-group {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.frame-parent13 {
+  align-self: stretch;
+  background-color: var(--color-gainsboro-400);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.especialidades-mais-populares {
+  position: relative;
+  font-weight: 500;
+}
+.ginecologista3 {
+  margin-bottom: 0;
+}
+.blank-line18 {
+  margin: 0;
+}
+.oftalmologista {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-xl);
+}
+.especialidades-mais-populares-parent {
+  background-color: var(--color-gainsboro-400);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-13xl);
+  gap: var(--gap-3xs);
+}
+.alergistas-peditricos3 {
+  text-decoration: underline;
+}
+.alergistas-peditricos2 {
+  color: inherit;
+}
+.frame-parent14,
+.vasectomia-abdominoplastia-acu-wrapper {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vasectomia-abdominoplastia-acu-wrapper {
+  background-color: var(--color-gainsboro-400);
+  flex-direction: column;
+  padding: var(--padding-5xl) var(--padding-13xl);
+}
+.frame-parent14 {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  padding: var(--padding-3xs) 72px;
+  gap: 72px;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+}
+.macbook-pro-14-11 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  height: 982px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-inter);
+}

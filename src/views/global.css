@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-kdam-thmor: "Kdam Thmor";
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-base: 16px;
+  --font-size-mini: 15px;
+  --font-size-xl: 20px;
+  --font-size-lg: 18px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-darkslategray-100: #0b5353;
+  --color-darkslategray-200: rgba(11, 83, 83, 0.84);
+  --color-white: #fff;
+  --color-gainsboro-100: #dfdddd;
+  --color-gainsboro-200: #dcdcdc;
+  --color-gainsboro-300: #d9d9d9;
+  --color-gainsboro-400: #d8d8d8;
+  --color-black: #000;
+  --color-whitesmoke-100: #f0f0f0;
+  --color-mediumvioletred: #c2296a;
+  --color-darkseagreen: #789374;
+  --color-powderblue: #c6e2e5;
+  --color-burlywood: #d09e5f;
+  --color-silver-100: #c4c4c4;
+  --color-silver-200: #acc4c4;
+  --color-gray-100: rgba(0, 0, 0, 0.52);
+  --color-gray-200: rgba(0, 0, 0, 0.71);
+  --color-gray-300: rgba(0, 0, 0, 0.58);
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-5xl: 24px;
+  --gap-xs: 12px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-5xl: 24px;
+  --padding-xl: 20px;
+  --padding-xs: 12px;
+  --padding-13xl: 32px;
+}

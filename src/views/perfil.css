@@ -1,0 +1,215 @@
+.union-icon1 {
+  width: 201px;
+  position: relative;
+  height: 95px;
+  object-fit: cover;
+}
+.anamnese1,
+.especialidades1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+}
+.anamnese1 {
+  white-space: pre-wrap;
+}
+.especialidades-group,
+.union-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.especialidades-group {
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.union-group {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.informaes-pessoais {
+  position: relative;
+  font-weight: 500;
+}
+.informaes-pessoais-wrapper,
+.prescries-wrapper {
+  text-decoration: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: inherit;
+}
+.informaes-pessoais-wrapper {
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  padding: var(--padding-3xs);
+}
+.prescries-wrapper {
+  background-color: #79a7a9;
+}
+.frame-parent9,
+.medicamento-wrapper,
+.prescries-wrapper {
+  overflow: hidden;
+  display: flex;
+  padding: var(--padding-3xs);
+}
+.medicamento-wrapper {
+  text-decoration: none;
+  background-color: #7fabad;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: inherit;
+}
+.frame-parent9 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.ellipse-icon {
+  width: 170px;
+  position: relative;
+  border-radius: 50%;
+  height: 159px;
+  object-fit: cover;
+}
+.ellipse-group,
+.nome-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.nome-parent {
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.ellipse-group {
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.compartilhar {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+}
+.compartilhar-wrapper {
+  background-color: var(--color-gainsboro-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.imprimir {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: left;
+}
+.frame-parent12,
+.imprimir-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.imprimir-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-gainsboro-300);
+  align-self: stretch;
+  overflow: hidden;
+}
+.frame-parent12 {
+  gap: var(--gap-5xl);
+}
+.frame-parent11 {
+  align-self: stretch;
+  background-color: var(--color-silver-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.alergia {
+  position: relative;
+  font-size: 36px;
+  font-weight: 500;
+}
+.dipirona-monohidratada {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.reaes-alergicas {
+  margin: 0;
+}
+.coceira-urticria-angiodema1 {
+  margin-bottom: 0;
+}
+.alergia-parent {
+  align-self: stretch;
+  background-color: var(--color-silver-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 36px var(--padding-5xl);
+  gap: 36px;
+}
+.frame-parent10 {
+  align-self: stretch;
+  flex: 1;
+  font-size: var(--font-size-5xl);
+}
+.frame-parent10,
+.frame-parent8,
+.macbook-pro-14-10 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.frame-parent8 {
+  align-self: stretch;
+  flex: 1;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.macbook-pro-14-10 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  height: 982px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-inter);
+}

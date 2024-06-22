@@ -1,0 +1,101 @@
+.uniondefault-icon {
+  width: 0;
+  position: relative;
+  height: 0;
+  object-fit: cover;
+}
+.macbook-pro-14-8-child {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-child {
+  width: 271px;
+  position: relative;
+  height: 122px;
+  object-fit: cover;
+}
+.textbox,
+.textbox-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.textbox {
+  border: 2px solid var(--color-darkslategray-100);
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  background-color: var(--color-gainsboro-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-3xs);
+  color: var(--color-black);
+  min-width: 350px;
+}
+.textbox-parent {
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.entrar {
+  position: relative;
+  font-weight: 500;
+}
+.button,
+.button1 {
+  text-decoration: none;
+  padding: var(--padding-3xs);
+}
+.button {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+.button1 {
+  background-color: var(--color-darkslategray-100);
+  color: var(--color-white);
+}
+.button1,
+.frame-parent,
+.rectangle-parent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frame-parent {
+  padding: var(--padding-3xs);
+  gap: var(--gap-5xl);
+}
+.rectangle-parent {
+  align-self: stretch;
+  flex: 1;
+}
+.macbook-pro-14-8 {
+  width: 100%;
+  position: relative;
+  height: 982px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  background-image: url(./public/macbook-pro-14--8@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-inter);
+}
