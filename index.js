@@ -1,6 +1,7 @@
 const express = require("express")
 const app = express()
 const mustacheExpress = require("mustache-express")
+const db = require('./src/db')
 
 //renderizar páginas HTML com mustache-express
 app.engine("html", mustacheExpress())
@@ -13,6 +14,9 @@ app.use(express.static("./src/views"))
 app.use(express.urlencoded({extended: true}))
 //direcionar rotas para módulo adequado
 app.use("/", require("./src/routes/RoutesClin"))
+
+//fazendo sincronização do banco de dados com a aplicação
+db.sync(() => console.log('Banco de dados conectado'))
 
 const PORT = 2024
 app.listen(PORT, function(req, res){
