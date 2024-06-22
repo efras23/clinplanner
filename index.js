@@ -12,11 +12,7 @@ app.use(express.static("./src/views"))
 //pegar dados de formulário
 app.use(express.urlencoded({extended: true}))
 //direcionar rotas para módulo adequado
-//app.use("/", require("./src/routes/RoutesClin"))
-
-app.get("/", function(req, res){
-    res.render("index.html")
-})
+app.use("/", require("./src/routes/RoutesClin"))
 
 const PORT = 2024
 app.listen(PORT, function(req, res){
