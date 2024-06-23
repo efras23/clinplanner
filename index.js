@@ -13,8 +13,12 @@ app.set("views", __dirname + "/src/views");
 app.use(express.static("./src/views"));
 // pegar dados de formulário
 app.use(express.urlencoded({ extended: true }));
+
 // direcionar rotas para módulo adequado
+//ROTAS FALTANTES ADICIONADAS :)
 app.use("/", require("./src/routes/RoutesClin"));
+app.use("/api", require("./src/routes/usuariosRoutes"));
+app.use("/auth", require("./src/routes/autenticacaoRoutes"));
 app.use(express.json());
 
 app.use(session({
