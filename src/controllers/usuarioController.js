@@ -9,10 +9,10 @@ function cadastrarUsuario(req, res) {
     }
     
     Usuario.create(usuario).then(()=>{
-        res.redirect('/?cadastrar_usuario=true');
+        res.redirect('/?cadastrarusuario=true');
     }).catch((err)=>{
         console.log(err);
-        res.redirect('/?cadastrar_usuario=false');
+        res.redirect('/?cadastrarusuario=false');
     });
 
 }
