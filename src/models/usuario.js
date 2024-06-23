@@ -1,28 +1,28 @@
-const Sequelize = require('sequelize');
-const database = require('../database.sqlite');
+const { DataTypes } = require('sequelize');
+const database = require('../db');
 
-const Usuario = database.define('usuario', {
+const Usuario = database.define('Usuario', {
     id: {
-        type: Sequelize.INTEGER,
+        type: DataTypes.INTEGER,
         autoIncrement: true,
         allowNull: false,
         primaryKey: true
     },
     email: {
-        type: Sequelize.STRING,
+        type: DataTypes.STRING,
         allowNull: false,
         unique: true
     },
     senha: {
-        type: Sequelize.STRING,
+        type: DataTypes.STRING,
         allowNull: false
     },
     nome: {
-        type: Sequelize.STRING,
+        type: DataTypes.STRING,
         allowNull: false
     },
     data_nascimento: {
-        type: Sequelize.STRING,
+        type: DataTypes.STRING,
         allowNull: false
     }
 });

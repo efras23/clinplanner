@@ -1,4 +1,4 @@
-const Usuario = require('../model/usuario');
+const Usuario = require('../models/usuario');
 
 async function autenticar(req, res){
     const usuario = await Usuario.findOne({ where: {
@@ -11,18 +11,17 @@ async function autenticar(req, res){
         res.redirect('/especialidades');
     }
     else{
-        let erro_autenticacao = true;
-        res.render('index.html', {erro_autenticacao});
+        res.render('index.html');
     }
 }
 
 function verificarAutenticacao(req, res, next) {
     if(req.session.autorizado){
-        console.log("usuário autorizado");
+        console.log("Usuário autorizado");
         next();
     }
     else{
-        console.log("usuário NÃO autorizado");
+        console.log("usuário não autorizado");
         res.redirect('/');
     }   
 }
